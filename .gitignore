@@ -5,6 +5,6 @@
 build
 
 # IntelliJ
-.idea
+.idea/
 *.iml
 out
