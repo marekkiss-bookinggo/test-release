@@ -1,0 +1,4 @@
+plugins {
+    id 'nebula.release' version '11.0.0'
+    id 'base'
+}
