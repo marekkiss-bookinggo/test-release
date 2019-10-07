@@ -2,3 +2,7 @@ plugins {
     id 'nebula.release' version '11.0.0'
     id 'base'
 }
+
+nebulaRelease {
+    releaseBranchPatterns = [/master/, /HEAD/, /release(-|\/)?\d+\.\d+\.\d+/]
+}
