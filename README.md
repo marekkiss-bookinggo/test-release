@@ -3,4 +3,4 @@ test release plugins
 
 another change
 
-this is a new error
+this is a new error | FIX
