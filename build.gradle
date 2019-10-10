@@ -3,5 +3,5 @@ plugins {
     id 'base'
 }
 nebulaRelease {
-    releaseBranchPatterns = [/master/, /release[^\s]*/]
+    releaseBranchPatterns = [/master[^\\s]*/, /release[^\\s]*/]
 }
