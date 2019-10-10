@@ -1,7 +1,10 @@
 plugins {
-    id 'nebula.release' version '11.0.0'
+    id 'net.researchgate.release' version '2.6.0'
     id 'base'
 }
-nebulaRelease {
-    releaseBranchPatterns = [/master[^\\s]*/, /release[^\\s]*/]
+
+release {
+    git {
+        requireBranch = ''
+    }
 }
