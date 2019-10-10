@@ -5,6 +5,6 @@ plugins {
 
 release {
     git {
-        requireBranch = '/release.*|master/'
+        requireBranch = '/release[^\\s]*|master/'
     }
 }
