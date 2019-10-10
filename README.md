@@ -3,4 +3,4 @@ test release plugins
 
 edit: testing nebula release plugin
 
-this is error
+this is error | FIX
